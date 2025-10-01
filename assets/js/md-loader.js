@@ -1,4 +1,4 @@
-// Loads Markdown into any element with data-md-src
+// Loads Markdown into any element with data-md-src, wrapped in a centered container
 (async () => {
   const targets = document.querySelectorAll('[data-md-src]');
   for (const el of targets) {
@@ -7,9 +7,10 @@
       const res = await fetch(src, { cache: 'no-store' });
       if (!res.ok) throw new Error(`${src} ${res.status}`);
       const md = await res.text();
-      el.innerHTML = marked.parse(md);
+      const html = marked.parse(md);
+      el.innerHTML = `<div class="container">${html}</div>`;
     } catch (err) {
-      el.innerHTML = `<p>Couldn’t load content: ${src}</p>`;
+      el.innerHTML = `<div class="container"><p>Couldn’t load content: ${src}</p></div>`;
       console.error(err);
     }
   }
