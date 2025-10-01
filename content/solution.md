@@ -1,3 +1,7 @@
 # Solution
 
+To address these challenges, our approach focuses not just on efficiency, but on building transparency and accountability directly into the platform’s design. Rather than treating AI as an invisible decision-maker, our solution emphasizes explainability, user choice, and fairness, so that both job seekers and employers understand how recommendations are made, where the data comes from, and when humans are involved in the process.
+
+
 To minimize user concerns, we have introduced features that enhance the overall experience while promoting transparency and trust. One key addition is the display of dataset metrics for each company, showing the sources and fairness performance of the data on which the AI was trained. Since AI models rely on pre-collected datasets that may carry biases, this feature helps users understand the extent to which a company’s AI tools may be influenced by such limitations. To strengthen user consent and data protection, we are also implementing an AI on/off toggle, allowing individuals to choose whether their personal information is processed by automated systems or by human reviewers. This gives users greater control and ensures safeguards against unintended data exposure. Finally, we are adding decision review logs, which provide a transparent record of how outcomes were generated, the rationale behind AI-driven recommendations, and whether decisions were accepted or overridden by human oversight. Together, these features create a more accountable, fair, and user-centered platform.
+
