@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Case Study</title>
+  <link rel="stylesheet" href="assets/css/nav.css" />
+  <!-- Markdown renderer (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav">
+      <a class="nav__logo" href="#top"><span>My Project</span></a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#the-problem"   class="nav__link">Problem</a></li>
+        <li><a href="#research"      class="nav__link">Research</a></li>
+        <li><a href="#analysis"      class="nav__link">Analysis</a></li>
+        <li><a href="#visual-design" class="nav__link">Visual Design</a></li>
+        <li><a href="#final-design"  class="nav__link">Final Design</a></li>
+        <li><a href="#conclusion"    class="nav__link">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- top anchor / hero (optional) -->
+  <div id="top" class="hero"></div>
+
+  <!-- PAGE SECTIONS (Markdown gets injected here) -->
+  <main>
+    <section id="the-problem"   data-md-src="content/the-problem.md"></section>
+    <section id="research"      data-md-src="content/research.md"></section>
+    <section id="analysis"      data-md-src="content/analysis.md"></section>
+    <section id="visual-design" data-md-src="content/visual-design.md"></section>
+    <section id="final-design"  data-md-src="content/final-design.md"></section>
+    <section id="conclusion"    data-md-src="content/conclusion.md"></section>
+  </main>
+
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/md-loader.js"></script>
+</body>
+</html>
