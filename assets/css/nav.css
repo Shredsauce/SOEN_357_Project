@@ -82,3 +82,17 @@ html { scroll-behavior: smooth; }
 /* demo spacing (optional) */
 .hero{ height:40vh; background: linear-gradient(#fff,#f5f5f5); }
 main section{ min-height:60vh; padding:24px 16px; }
+
+/* centered content container */
+.container {
+  max-width: 1100px;   /* match .nav max-width */
+  margin: 0 auto;
+  padding: 0 16px;     /* side padding for small screens */
+}
+
+/* make injected markdown responsive */
+.container img, .container video, .container svg, .container iframe {
+  max-width: 100%;
+  height: auto;
+}
+
