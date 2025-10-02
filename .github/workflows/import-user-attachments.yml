@@ -1,7 +1,7 @@
 name: Import user-attachments into repo
 
 on:
-  workflow_dispatch: {}   # run manually from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -22,16 +22,16 @@ jobs:
       - name: Install deps
         run: pip install requests
 
-      - name: Import & rewrite
+      - name: Import & rewrite (no commit/branch here)
         run: |
           python - <<'PY'
-          import hashlib, mimetypes, os, re, sys, subprocess
+          import hashlib, mimetypes, os, re, sys
           from pathlib import Path
           import requests
 
           URL_RE = re.compile(r"https://github\.com/user-attachments/assets/([A-Za-z0-9-]+)")
           MD_EXTS = {".md", ".markdown", ".mdx"}
-          TARGET_DIR = Path("assets/images")   # <-- SAVES TO assets/images/
+          TARGET_DIR = Path("assets/images")
           TARGET_DIR.mkdir(parents=True, exist_ok=True)
 
           def sha16(b): return hashlib.sha256(b).hexdigest()[:16]
@@ -42,7 +42,8 @@ jobs:
                   "image/avif": ".avif"
               }
               if content_type in m: return m[content_type]
-              guess = mimetypes.guess_extension((content_type or "").split(";")[0].strip())
+              ct = (content_type or "").split(";")[0].strip()
+              guess = mimetypes.guess_extension(ct)
               if guess: return guess
               ext = os.path.splitext(url)[1]
               return ext if ext else ".bin"
@@ -57,12 +58,10 @@ jobs:
               r.raise_for_status()
               return r.content, ctype
 
-          # Gather markdown files
           root = Path(".").resolve()
           md_files = [p for p in root.rglob("*") if p.suffix.lower() in MD_EXTS and p.is_file()]
 
-          file_hits = {}
-          all_urls = set()
+          file_hits, all_urls = {}, set()
           for md in md_files:
               text = md.read_text(encoding="utf-8", errors="ignore")
               hits = list(URL_RE.finditer(text))
@@ -77,8 +76,7 @@ jobs:
 
           print(f"Found {len(all_urls)} unique URLs in {len(file_hits)} files.")
 
-          url_to_local = {}
-          hash_to_name = {}
+          url_to_local, hash_to_name = {}, {}
 
           for url in sorted(all_urls):
               try:
@@ -114,18 +112,19 @@ jobs:
           if not changed:
               print("No files needed rewriting.")
               sys.exit(0)
-
-          # Commit on a branch; let next step open a PR
-          subprocess.run(["git", "checkout", "-b", "chore/import-user-attachments"], check=False)
-          subprocess.run(["git", "add", "assets/images"] + [str(p) for p in changed], check=False)
-          subprocess.run(["git", "commit", "-m", "Import user-attachments images into assets/images and rewrite links"], check=False)
           PY
 
       - name: Create or update PR
         uses: peter-evans/create-pull-request@v6
         with:
+          # make the PR from a new branch to the default branch
+          base: ${{ github.event.repository.default_branch }}
+          branch: chore/import-user-attachments
+          delete-branch: true
           commit-message: Import user-attachments images and rewrite links
           title: "Import user-attachments → assets/images"
           body: "Automatically imported external images into `assets/images/` and rewrote Markdown links."
-          branch: chore/import-user-attachments
           labels: maintenance
+          add-paths: |
+            assets/images/**
+            **/*.md
