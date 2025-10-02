@@ -31,7 +31,7 @@ We divided our survey into 3 main sections: questions for “job seekers”, que
 Through our survey, we discovered that, the majority of respondents use the same AI-powered employment support applications: 47% use LinkedIn AI-Powered Job Search/Writing Assistant and 41% use Indeed Career Scout. An almost equal number of respondents had never used an application of this type.
 
 <p align="center">
-  <img width="585" height="282" alt="image" src="https://github.com/user-attachments/assets/cb539a07-c447-4e82-ac8a-f77e9598328d" />
+  <img width="585" height="282" alt="image" src="/assets/images/ua-f95029285b121d85.xsl" />
 </p>
 <p align="center">
   <i>Figure 1: Job seekers experience with AI-powered employment support tools</i>
@@ -40,7 +40,7 @@ Through our survey, we discovered that, the majority of respondents use the same
 Job seekers were reportedly mainly using these products to find appropriate job postings (59%) and prepare for subsequent job interviews (41%). This is in comparison to features such as resume/cover letter creation/editing (6%) and tracking job applications (12%) that were used by a smaller subset of job seekers.
 
 <p align="center">
-  <img width="668" height="285" alt="image" src="https://github.com/user-attachments/assets/2776b47b-b7b6-402b-9a61-780358b704f8" />
+  <img width="668" height="285" alt="image" src="/assets/images/ua-5cb842b86f5e3030.xsl" />
 </p>
 <p align="center">
   <i>Figure 2: Job seekers use of AI-powered employment support tools</i>
@@ -49,7 +49,7 @@ Job seekers were reportedly mainly using these products to find appropriate job 
 Consequently, most of the respondents (93% in total) stated that for a potential AI-powered app, they would like it to be capable of finding them relevant job postings and helping them prepare for interviews.
 
 <p align="center">
-  <img width="603" height="273" alt="image" src="https://github.com/user-attachments/assets/51383fbe-d7cd-451c-a678-1beec3652db7" />
+  <img width="603" height="273" alt="image" src="/assets/images/ua-1dfffc1084824ede.xsl" />
 </p>
 <p align="center">
   <i>Figure 3: Features job seekers want in an AI tool</i>
@@ -60,14 +60,14 @@ Consequently, most of the respondents (93% in total) stated that for a potential
 Our survey also revealed that for hiring personnel, HireVue was the most popular application with 71% of respondents using it in comparison to Fetcher’s 29% and Pinpoint’s 14% . Respondents also reported that the hardest part of their recruitment process was screening candidates’ resumes/cover letters (100%) and sourcing candidates that meet requirements (71%).
 
 <p align="center">
-  <img width="610" height="281" alt="image" src="https://github.com/user-attachments/assets/6a131f39-48e4-45d1-8879-cae3d32de1f2" />
+  <img width="610" height="281" alt="image" src="/assets/images/ua-b32b7fa5486fb860.xsl" />
 </p>
 <p align="center">
   <i>Figure 4: Hiring personnel experience with AI-powered employment support tools</i>
 </p>
 
 <p align="center">
-  <img width="626" height="264" alt="image" src="https://github.com/user-attachments/assets/ffd1d779-4727-40e4-9171-407db119438b" />
+  <img width="626" height="264" alt="image" src="/assets/images/ua-f5dc9a166dfa7610.xsl" />
 </p>
 <p align="center">
   <i>Figure 5: Hiring personnel’s biggest challenges in the job recruitment process</i>
@@ -77,14 +77,14 @@ Our survey also revealed that for hiring personnel, HireVue was the most popular
 86% of respondents claimed that they only used AI-powered employment tools to screen resumes and cover letters while the remaining candidates reportedly had never used a tool of this type. However, 86% of respondents said they would like a potential AI app to be able to help with the screening of documents and 100% said they would like it to help with sourcing candidates, while none wanted an AI tool that could assess job interviews. This indicated to us that there was a gap in what the users wanted and what they were being offered by their preferred AI tools.
 
 <p align="center">
-  <img width="582" height="251" alt="image" src="https://github.com/user-attachments/assets/7045e24e-4196-46a0-92df-4201e5c2893a" />
+  <img width="582" height="251" alt="image" src="/assets/images/ua-da0cfbfdd05bcd85.xsl" />
 </p>
 <p align="center">
   <i>Figure 6: Hiring personnel use of AI-powered employment support tools</i>
 </p>
 
 <p align="center">
-  <img width="623" height="286" alt="image" src="https://github.com/user-attachments/assets/019b9f7c-7972-4534-a12d-bac2486a86e5" />
+  <img width="623" height="286" alt="image" src="/assets/images/ua-d42a913fb66b0376.xsl" />
 </p>
 <p align="center">
   <i>Figure 7: Features hiring personnel want in an AI tool</i>
@@ -97,7 +97,7 @@ As a result of these responses, we focused our efforts on matching the features 
 The final part of our survey focused on identify what our target users’ concerns with AI-powered employment support applications were and how we could address them. For the majority of respondents, lack of human over sight (71%) and lack of explanations for decisions (58%) were the biggest concerns.
 
 <p align="center">
-  <img width="652" height="305" alt="image" src="https://github.com/user-attachments/assets/6acc1d0d-276b-448e-afab-a073b998569e" />
+  <img width="652" height="305" alt="image" src="/assets/images/ua-bbc9f26e9fb0c261.xsl" />
 </p>
 <p align="center">
   <i>Figure 8: Concerns target users have with AI tools for employment support</i>
@@ -106,14 +106,14 @@ The final part of our survey focused on identify what our target users’ concer
 Unsurprisingly, this led to most respondents indicating that in-depth explanations of how the AI works and what data it used for its decisions would increase their trust for the app. Respondents also indicated they would appreciate clear labelling of AI decisions in-app.
 
 <p align="center">
-  <img width="579" height="246" alt="image" src="https://github.com/user-attachments/assets/426795b2-e866-4bf5-8e57-2eb2eb65c9ab" />
+  <img width="579" height="246" alt="image" src="/assets/images/ua-29577e5822b4880e.xsl" />
 </p>
 <p align="center">
   <i>Figure 9: Target users’ preferred methods of maintaining trust and transparency in AI tool</i>
 </p>
 
 <p align="center">
-  <img width="678" height="279" alt="image" src="https://github.com/user-attachments/assets/02b492bd-474c-49af-87bd-6e31dd4c9422" />
+  <img width="678" height="279" alt="image" src="/assets/images/ua-a758ad8b19863abc.xsl" />
 </p>
 <p align="center">
   <i>Figure 10: Target users’ preferred level of detail for AI decisions/explanations</i>
