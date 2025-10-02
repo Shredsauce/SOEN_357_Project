@@ -1,0 +1,30 @@
+name: Fix image extensions
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fix-ext:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rename all .xsl to .png
+        run: |
+          cd assets/images
+          for f in *.xsl; do
+            mv "$f" "${f%.xsl}.png"
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets/images
+          git commit -m "Rename image extensions from .xsl to .png" || echo "No changes"
+          git push
