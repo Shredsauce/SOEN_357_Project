@@ -1,0 +1,131 @@
+name: Import user-attachments into repo
+
+on:
+  workflow_dispatch: {}   # run manually from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Import & rewrite
+        run: |
+          python - <<'PY'
+          import hashlib, mimetypes, os, re, sys, subprocess
+          from pathlib import Path
+          import requests
+
+          URL_RE = re.compile(r"https://github\.com/user-attachments/assets/([A-Za-z0-9-]+)")
+          MD_EXTS = {".md", ".markdown", ".mdx"}
+          TARGET_DIR = Path("assets/images")   # <-- SAVES TO assets/images/
+          TARGET_DIR.mkdir(parents=True, exist_ok=True)
+
+          def sha16(b): return hashlib.sha256(b).hexdigest()[:16]
+          def pick_ext(content_type, url):
+              m = {
+                  "image/png": ".png", "image/jpeg": ".jpg", "image/jpg": ".jpg",
+                  "image/gif": ".gif", "image/webp": ".webp", "image/svg+xml": ".svg",
+                  "image/avif": ".avif"
+              }
+              if content_type in m: return m[content_type]
+              guess = mimetypes.guess_extension((content_type or "").split(";")[0].strip())
+              if guess: return guess
+              ext = os.path.splitext(url)[1]
+              return ext if ext else ".bin"
+
+          def fetch(url):
+              try:
+                  h = requests.head(url, timeout=20, allow_redirects=True)
+                  ctype = h.headers.get("Content-Type","").split(";")[0].strip()
+              except Exception:
+                  ctype = ""
+              r = requests.get(url, timeout=60)
+              r.raise_for_status()
+              return r.content, ctype
+
+          # Gather markdown files
+          root = Path(".").resolve()
+          md_files = [p for p in root.rglob("*") if p.suffix.lower() in MD_EXTS and p.is_file()]
+
+          file_hits = {}
+          all_urls = set()
+          for md in md_files:
+              text = md.read_text(encoding="utf-8", errors="ignore")
+              hits = list(URL_RE.finditer(text))
+              if hits:
+                  urls = [m.group(0) for m in hits]
+                  file_hits[md] = urls
+                  all_urls.update(urls)
+
+          if not all_urls:
+              print("No user-attachments URLs found.")
+              sys.exit(0)
+
+          print(f"Found {len(all_urls)} unique URLs in {len(file_hits)} files.")
+
+          url_to_local = {}
+          hash_to_name = {}
+
+          for url in sorted(all_urls):
+              try:
+                  blob, ctype = fetch(url)
+              except Exception as e:
+                  print(f"FAILED to fetch {url}: {e}", file=sys.stderr)
+                  continue
+              digest = sha16(blob)
+              if digest in hash_to_name:
+                  fname = hash_to_name[digest]
+              else:
+                  ext = pick_ext(ctype, url)
+                  fname = f"ua-{digest}{ext}"
+                  i = 1
+                  while (TARGET_DIR / fname).exists():
+                      fname = f"ua-{digest}-{i}{ext}"; i += 1
+                  (TARGET_DIR / fname).write_bytes(blob)
+                  hash_to_name[digest] = fname
+              url_to_local[url] = f"/{TARGET_DIR.as_posix()}/{fname}"
+              print(f"{url} -> {url_to_local[url]}")
+
+          changed = []
+          for md, urls in file_hits.items():
+              text = md.read_text(encoding="utf-8", errors="ignore")
+              new = text
+              for url in urls:
+                  if url in url_to_local:
+                      new = new.replace(url, url_to_local[url])
+              if new != text:
+                  md.write_text(new, encoding="utf-8")
+                  changed.append(md)
+
+          if not changed:
+              print("No files needed rewriting.")
+              sys.exit(0)
+
+          # Commit on a branch; let next step open a PR
+          subprocess.run(["git", "checkout", "-b", "chore/import-user-attachments"], check=False)
+          subprocess.run(["git", "add", "assets/images"] + [str(p) for p in changed], check=False)
+          subprocess.run(["git", "commit", "-m", "Import user-attachments images into assets/images and rewrite links"], check=False)
+          PY
+
+      - name: Create or update PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Import user-attachments images and rewrite links
+          title: "Import user-attachments → assets/images"
+          body: "Automatically imported external images into `assets/images/` and rewrote Markdown links."
+          branch: chore/import-user-attachments
+          labels: maintenance
