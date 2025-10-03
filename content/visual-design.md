@@ -21,12 +21,15 @@
 
 ## Mockups
 
-![61](/assets/images/ua-5fe9976127c69f2f.xsl)
+![61](/assets/images/Landing + Login + Sign up pages Mock.png)
 
-![71](/assets/images/ua-220ab7c80bb5a733.xsl)
+![71](/assets/images/AI consent + Employers pages pages Mock.png)
 
-![81](/assets/images/ua-90d6dc8a23d24e06.xsl)
+![81](/assets/images/Employers pages 2 Mock.png)
 
-![91](/assets/images/ua-31d794f62b8cd7e5.xsl)
+![91](/assets/images/Candidates pages Mock.png)
 
-![101](/assets/images/ua-e9916a0af4ab1ff3.xsl)
+![101](/assets/images/Candidates pages 2 Mock.png)
+
+
+
