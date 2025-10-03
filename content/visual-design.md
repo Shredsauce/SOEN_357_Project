@@ -1,7 +1,11 @@
 # Visual Design
 
 ## Storyboard
-<img width="975" height="639" alt="image" src="/assets/images/ua-3fec6a33a63e1a5a.xsl" />
+### Job Seeker 
+<img width="975" height="639" alt="image" src="/assets/images/1.png" />
+
+### Employer
+<img width="975" height="639" alt="image" src="/assets/images/2.png" />
 
 ## Flow Diagram
 
