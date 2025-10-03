@@ -32,12 +32,3 @@
 <img width="975" height="639" alt="image" src="/assets/images/Candidates pages 2 Mock.png" />
 
 
-
-![81](/assets/images/Employers pages 2 Mock.png)
-
-![91](/assets/images/Candidates pages Mock.png)
-
-![101](/assets/images/Candidates pages 2 Mock.png)
-
-
-
