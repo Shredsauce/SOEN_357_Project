@@ -1,4 +1,4 @@
-# Anaysis
+# Analysis
 
 ## User Personas
 
