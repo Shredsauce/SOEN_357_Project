@@ -119,10 +119,19 @@ Unsurprisingly, this led to most respondents indicating that in-depth explanatio
 
 # Quotes from participants
 
-Some quotes that we gathered from participtants are as follows:
+Some quotes that we gathered from participants are as follows:
 
-- “Having clear, explainable AI decisions helps me hire fairly, save time, and show my company that every candidate was evaluated with transparency and respect.”
-
-- “I just want to know my skills are seen and valued and not lost in an automated system that doesn’t explain why I was rejected.”
-
-- “I’m trying to land my first role, so it’s frustrating when AI filters me out without feedback or understanding that my skills can grow.”
+<div style="display:grid; gap:16px; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); margin-top:12px;">
+  <blockquote style="margin:0; padding:16px 20px; border-radius:12px; background:#f9fafb; border:1px solid #e5e7eb; color:#111827;">
+    <span style="font-size:28px; line-height:0; color:#9ca3af;">“</span>
+    Having clear, explainable AI decisions helps me hire fairly, save time, and show my company that every candidate was evaluated with transparency and respect.
+  </blockquote>
+  <blockquote style="margin:0; padding:16px 20px; border-radius:12px; background:#f9fafb; border:1px solid #e5e7eb; color:#111827;">
+    <span style="font-size:28px; line-height:0; color:#9ca3af;">“</span>
+    I just want to know my skills are seen and valued and not lost in an automated system that doesn’t explain why I was rejected.
+  </blockquote>
+  <blockquote style="margin:0; padding:16px 20px; border-radius:12px; background:#f9fafb; border:1px solid #e5e7eb; color:#111827;">
+    <span style="font-size:28px; line-height:0; color:#9ca3af;">“</span>
+    I’m trying to land my first role, so it’s frustrating when AI filters me out without feedback or understanding that my skills can grow.
+  </blockquote>
+</div>
