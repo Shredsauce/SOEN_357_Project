@@ -1,6 +1,6 @@
 # Final Design
 
-<img width="975" height="639" alt="image" src="/assets/images/Landing + Login.pngLanding + Login + Sign up pages Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/Landing + Login.png" />
 
 <img width="975" height="639" alt="image" src="/assets/images/AI consent + Employers page.png" />
 
