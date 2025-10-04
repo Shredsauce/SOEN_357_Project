@@ -7,11 +7,11 @@ We chose teal, persian green, black and white scolor palette and went for a mini
 <img width="975" height="639" alt="image" src="/assets/images/Color Palette.png" />
 
 ### Design Inspiration
-<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration.png" />
+<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration.jpg" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration 2.png" />
+<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration 2.jpg" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration 3.png" />
+<img width="975" height="639" alt="image" src="/assets/images/Design Inspiration 3.jpg" />
 
 ### The FInal Design
 <img width="975" height="639" alt="image" src="/assets/images/Landing + Login.png" />
