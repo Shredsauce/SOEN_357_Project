@@ -6,12 +6,49 @@ Employment-support apps are primarily focused on providing services to persons s
 
 ### Competitors
 
-| Product Name                              | Audience    | Main Features                                                                                                                                                                                                                                                                                                         | How AI Transparency and Trust is Promoted                                                                                                                                                                                                                                                                                                                                                                                                      | Where AI Transparency and Trust Could Be Improved                                                                                     |
-| ----------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **HireVue**                               | Employers   | - Offers various AI-scored assessments and job try-outs to measure and validate candidates’ skills and knowledge<br>- Offers interviewing software based on standardized AI chatbots which can be integrated with a company’s ATS to increase efficiency<br>- Finds candidates who match job interests via AI chatbot | - Clearly defines to employers how the AI works and in which cases it would/would not be useful<br>- Clearly defines what parameters are used by the hiring AI<br>- Clearly defines potential cons of using the AI<br>- Provides explanations for all AI scores [link](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1623&context=msisq#::text=To%20address%20the%20transparency%20challenges,clients%20who%20use%20AI%20applications.) | - Does not provide job candidates with opportunities to challenge AI assessments or learn how assessments are done                    |
-| **Fetcher**                               | Employers   | - Sorts through submitted job applications and finds best candidates according to pre-set criteria<br>- Provides analysis of candidates<br>- Sources candidates who have not applied but would be a good fit for a position                                                                                           | - Emphasis on human recruiters working with AI to verify matches, weed out false profiles, and give feedback to AI<br>- Restricts AI data processing to only necessary data<br>- Allows job candidates to control AI’s access to personal data                                                                                                                                                                                                 | - No full transparency into how candidates are scored/ranked<br>- Outsourced candidates from third-party platforms may introduce bias |
-| **LinkedIn AI Powered Writing Assistant** | Job Seekers | - Provides personalized suggestions on how to improve LinkedIn profiles                                                                                                                                                                                                                                               | - Allows users to edit or remove any suggestions made by AI                                                                                                                                                                                                                                                                                                                                                                                    | - Only available to LinkedIn Premium users<br>- All users’ data is used to train the AI by default unless they opt out                |
-| **Indeed Career Scout**                   | Job Seekers | - Assists with building resumes and tracking applications<br>- Suggests jobs matching users’ experiences, skills, and values<br>- Offers interview practice and feedback for relevant jobs at users’ own pace                                                                                                         | - Promotes human involvement in AI hiring through using AI as an assistant instead of replacement<br>- Clearly labels AI output as such                                                                                                                                                                                                                                                                                                        | - No clear public descriptions of how bias is mitigated<br>- No clear way for users to challenge AI output                            |
+<div style="overflow-x:auto; margin-top:8px;">
+  <table style="width:100%; border-collapse:separate; border-spacing:0; border:1px solid #e5e7eb;">
+    <thead>
+      <tr style="background:#f9fafb;">
+        <th style="text-align:left; padding:12px 14px; border-bottom:1px solid #e5e7eb;">Product Name</th>
+        <th style="text-align:left; padding:12px 14px; border-bottom:1px solid #e5e7eb;">Audience</th>
+        <th style="text-align:left; padding:12px 14px; border-bottom:1px solid #e5e7eb;">Main Features</th>
+        <th style="text-align:left; padding:12px 14px; border-bottom:1px solid #e5e7eb;">How AI Transparency and Trust is Promoted</th>
+        <th style="text-align:left; padding:12px 14px; border-bottom:1px solid #e5e7eb;">Where AI Transparency and Trust Could Be Improved</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:12px 14px; vertical-align:top;"><strong>HireVue</strong></td>
+        <td style="padding:12px 14px; vertical-align:top;">Employers</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Offers various AI-scored assessments and job try-outs to measure and validate candidates’ skills and knowledge<br>- Offers interviewing software based on standardized AI chatbots which can be integrated with a company’s ATS to increase efficiency<br>- Finds candidates who match job interests via AI chatbot</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Clearly defines to employers how the AI works and in which cases it would/would not be useful<br>- Clearly defines what parameters are used by the hiring AI<br>- Clearly defines potential cons of using the AI<br>- Provides explanations for all AI scores <a href="https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1623&context=msisq#::text=To%20address%20the%20transparency%20challenges,clients%20who%20use%20AI%20applications.">link</a></td>
+        <td style="padding:12px 14px; vertical-align:top;">- Does not provide job candidates with opportunities to challenge AI assessments or learn how assessments are done</td>
+      </tr>
+      <tr style="background:#fcfcfd;">
+        <td style="padding:12px 14px; vertical-align:top;"><strong>Fetcher</strong></td>
+        <td style="padding:12px 14px; vertical-align:top;">Employers</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Sorts through submitted job applications and finds best candidates according to pre-set criteria<br>- Provides analysis of candidates<br>- Sources candidates who have not applied but would be a good fit for a position</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Emphasis on human recruiters working with AI to verify matches, weed out false profiles, and give feedback to AI<br>- Restricts AI data processing to only necessary data<br>- Allows job candidates to control AI’s access to personal data</td>
+        <td style="padding:12px 14px; vertical-align:top;">- No full transparency into how candidates are scored/ranked<br>- Outsourced candidates from third-party platforms may introduce bias</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 14px; vertical-align:top;"><strong>LinkedIn AI Powered Writing Assistant</strong></td>
+        <td style="padding:12px 14px; vertical-align:top;">Job Seekers</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Provides personalized suggestions on how to improve LinkedIn profiles</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Allows users to edit or remove any suggestions made by AI</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Only available to LinkedIn Premium users<br>- All users’ data is used to train the AI by default unless they opt out</td>
+      </tr>
+      <tr style="background:#fcfcfd;">
+        <td style="padding:12px 14px; vertical-align:top;"><strong>Indeed Career Scout</strong></td>
+        <td style="padding:12px 14px; vertical-align:top;">Job Seekers</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Assists with building resumes and tracking applications<br>- Suggests jobs matching users’ experiences, skills, and values<br>- Offers interview practice and feedback for relevant jobs at users’ own pace</td>
+        <td style="padding:12px 14px; vertical-align:top;">- Promotes human involvement in AI hiring through using AI as an assistant instead of replacement<br>- Clearly labels AI output as such</td>
+        <td style="padding:12px 14px; vertical-align:top;">- No clear public descriptions of how bias is mitigated<br>- No clear way for users to challenge AI output</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## User Research
 
