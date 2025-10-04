@@ -10,9 +10,12 @@
 html { scroll-behavior: smooth; }
 [id] { scroll-margin-top: calc(var(--nav-height) + 12px); }
 
+* {
+  font-family: Arial, sans-serif;
+}
+
 /* sticky header */
 .site-header {
-  font-family: verdana;
   position: sticky; top: 0; z-index: 999;
   background: var(--bg); color: var(--fg);
   transition: background var(--transition), color var(--transition), box-shadow var(--transition);
