@@ -1,6 +1,7 @@
 # Visual Design
 
 ## Storyboard
+As a final part of the research phase we created a storyboard to describing a user’s interaction with our app. This is useful from a human centered design perspective by helping us predict the emotional context behind our user experience.
 ### Job Seeker 
 <img width="975" height="639" alt="image" src="/assets/images/1.png" />
 
