@@ -11,7 +11,7 @@
 
 <img width="808" height="565" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/ua-ffc96f94db88687e.png" />
 
-## User Journey User Journey
+## User Journey
 
 ### Job Seeker
 <img width="975" height="237" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/ua-3c84728060341a94.png" />
