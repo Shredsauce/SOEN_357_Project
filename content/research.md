@@ -22,7 +22,7 @@ Employment-support apps are primarily focused on providing services to persons s
         <td style="padding:12px 14px; vertical-align:top;"><strong>HireVue</strong></td>
         <td style="padding:12px 14px; vertical-align:top;">Employers</td>
         <td style="padding:12px 14px; vertical-align:top;">- Offers various AI-scored assessments and job try-outs to measure and validate candidates’ skills and knowledge<br>- Offers interviewing software based on standardized AI chatbots which can be integrated with a company’s ATS to increase efficiency<br>- Finds candidates who match job interests via AI chatbot</td>
-        <td style="padding:12px 14px; vertical-align:top;">- Clearly defines to employers how the AI works and in which cases it would/would not be useful<br>- Clearly defines what parameters are used by the hiring AI<br>- Clearly defines potential cons of using the AI<br>- Provides explanations for all AI scores <a href="https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1623&context=msisq#::text=To%20address%20the%20transparency%20challenges,clients%20who%20use%20AI%20applications.">link</a></td>
+        <td style="padding:12px 14px; vertical-align:top;">- Clearly defines to employers how the AI works and in which cases it would/would not be useful<br>- Clearly defines what parameters are used by the hiring AI<br>- Clearly defines potential cons of using the AI<br>- Provides explanations for all AI scores </td>
         <td style="padding:12px 14px; vertical-align:top;">- Does not provide job candidates with opportunities to challenge AI assessments or learn how assessments are done</td>
       </tr>
       <tr style="background:#fcfcfd;">
