@@ -14,12 +14,12 @@ We chose teal, persian green, black and white scolor palette and went for a mini
 <img width="975" height="639" alt="image" src="/assets/images/Design Inspiration 3.jpg" />
 
 ### The FInal Design
-<img width="975" height="639" alt="image" src="/assets/images/Landing + Login.png" />
+<img width="975" height="639" alt="image" src="/assets/images/F1.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Ai consent + Employers page.png" />
+<img width="975" height="639" alt="image" src="/assets/images/F2.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Employers page.png" />
+<img width="975" height="639" alt="image" src="/assets/images/F3.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Candidates page.png" />
+<img width="975" height="639" alt="image" src="/assets/images/F4.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Candidates page 2.png" />
+<img width="975" height="639" alt="image" src="/assets/images/F5.png" />
