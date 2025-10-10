@@ -31,14 +31,14 @@ Then we moved on to wireframes, the essential visual guide that represents the s
 
 Using the wireframes created earlier, a set of detailed mockups were designed in place of formal wireframes. These highly detailed mockups show all of the detail that was necessary for us to develop the final design.
 
-<img width="975" height="639" alt="image" src="/assets/images/Landing + Login + Sign up pages Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/M1.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/AI consent + Employers pages pages Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/M2.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Employers pages 2 Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/M3.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Candidates pages Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/M4.png" />
 
-<img width="975" height="639" alt="image" src="/assets/images/Candidates pages 2 Mock.png" />
+<img width="975" height="639" alt="image" src="/assets/images/M5.png" />
 
 
