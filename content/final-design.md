@@ -13,7 +13,7 @@ We chose teal, persian green, black and white scolor palette and went for a mini
 
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Design Inspiration 3.jpg" />
 
-### The FInal Design
+### The Final Design
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/F1.png" />
 
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/F2.png" />
