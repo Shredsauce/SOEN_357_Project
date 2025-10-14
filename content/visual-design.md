@@ -13,7 +13,8 @@ As a final part of the research phase we created a storyboard to describe our ta
 
 After determining our user goals, we understood the process of how to satisfy them. TO help formalize our ideas we created a flow diagram showing the interactions between the users and our app. 
 
-<img width="873" height="613" alt="image" src="https://github.com/user-attachments/assets/7cac894f-ac8b-458a-b108-8a135128740a" />
+<img width="1458" height="1000" alt="image" src="https://github.com/user-attachments/assets/c86d0c6a-9fc2-4e28-9616-40dd1446a9fb" />
+
 
 ## Sketches
 
