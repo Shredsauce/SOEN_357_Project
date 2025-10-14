@@ -1,1 +1,4 @@
-test
+# Conclusion
+
+This project allowed us to gain valuable insight into the work and thought that goes into UI/UX design. The added challenge of making design choices that would strengthen AI trust and transparency gave us the opportunity to focus more on user perspectives and frustrations.
+Overall, the main challenge was ensuring that our product had enough features to encourage trust in the app’s AI content through our design choices while not overwhelming non-technical users with unnecessary information. To examine existing solutions and get an idea of what worked/needed to be improved, we conducted market research along with distributing questionnaires and conducting interviews. Through our human-focused approach, we were able to make choices that resulted in a user-friendly, informative design.
