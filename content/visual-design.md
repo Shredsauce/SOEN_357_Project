@@ -4,7 +4,7 @@
 As a final part of the research phase we created a storyboard to describe our target users’ interaction with our app. This is useful from a human centered design perspective by helping us predict the emotional context behind our user experience.
 
 ### Job Seeker 
-<img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/1.png" />
+<img width="1458" height="1000" alt="image" src="https://github.com/user-attachments/assets/067a0f19-24c3-48ab-b995-29759040cc81" />
 
 ### Employer
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/2.png" />
