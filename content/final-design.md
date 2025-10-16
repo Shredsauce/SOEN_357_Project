@@ -13,14 +13,14 @@ For the font styles used in the app, we wanted to select a font that was visuall
 To name our app, we chose between HireIQ and HireIQ.ai. In the end, we selected HireIQ, as we felt HireIQ.ai was a bit too long and we didn’t want this to intimidate potential users. For our logo, we wanted a simple, modern design that clearly indicated the employment support aspect of our app while also referencing the use of AI in the app. As such, we chose a design of a briefcase with features that resembled the head of a robot.
 <img width="2732" height="2048" alt="image" src="https://github.com/user-attachments/assets/dd506cea-6526-482b-ba87-9389c9b55192" />
 
-### Design Inspiration
+## Design Inspiration
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Design Inspiration.jpg" />
 
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Design Inspiration 2.jpg" />
 
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Design Inspiration 3.jpg" />
 
-### The Final Design
+## The Final Design
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/F1.png" />
 
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/F2.png" />
