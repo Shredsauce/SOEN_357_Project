@@ -2,7 +2,7 @@
 
 ## Team Members
 
-Nanjiba Jahin Sadique 40258772, Ciara Banks 40195012, Mijan Ullah 40287584 AND Malcolm Arcand Laliberte 26334792
+Nanjiba Jahin Sadique 40258772, Ciara Banks 40195012, Mijan Ullah 40287584, Malcolm Arcand Laliberte 26334792
 
 ## Project Introduction
 
