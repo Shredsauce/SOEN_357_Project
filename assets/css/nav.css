@@ -13,7 +13,11 @@ html { scroll-behavior: smooth; }
 * {
   font-family: Arial, sans-serif;
 }
-
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 /* sticky header */
 .site-header {
   position: sticky; top: 0; z-index: 999;
