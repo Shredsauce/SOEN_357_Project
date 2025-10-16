@@ -1,8 +1,8 @@
 :root{
   --nav-height: 56px;
   --transition: 200ms ease;
-  --fg: #7db5bd;
-  --bg: #7db5bd;
+  --fg: #111;
+  --bg: #fff;
   --fgScrolled: #fff;
   --bgScrolled: #000;
 }
