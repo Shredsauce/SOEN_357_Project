@@ -1,4 +1,4 @@
-# HIREIQ – Enhancing AI Transparency in Employment Platforms
+# HireIQ – Enhancing AI Transparency in Employment Platforms
 
 ## Team Members
 
@@ -6,11 +6,11 @@ Nanjiba Jahin Sadique 40258772, Ciara Banks 40195012, Mijan Ullah 40287584 AND M
 
 ## Project Introduction
 
-**HIREIQ** is an AI-powered employment platform designed to bring transparency, fairness, and trust to the hiring process. Similar to platforms like LinkedIn, HIREIQ helps job seekers connect with employers and discover relevant opportunities but with a crucial difference: it emphasizes AI explainability.
+**HireIQ** is an AI-powered employment platform designed to bring transparency, fairness, and trust to the hiring process. Similar to platforms like LinkedIn, HireIQ helps job seekers connect with employers and discover relevant opportunities but with a crucial difference: it emphasizes AI explainability.
 
 We aim to make AI-driven recommendations and evaluations clear and understandable to all users. Job seekers can see how AI analyzes their resumes, recommends skills, and ranks opportunities. Employers, on the other hand, gain insights into why certain candidates are prioritized. This transparency empowers both sides to make informed decisions while fostering trust in AI systems.
 
-By introducing AI transparency for employment-focused social media platforms, HIREIQ bridges the gap between automation and accountability, ensuring that technology remains fair, inclusive, and easy to trust.
+By introducing AI transparency for employment-focused social media platforms, HireIQ bridges the gap between automation and accountability, ensuring that technology remains fair, inclusive, and easy to trust.
 
 # Understanding the problem
 
