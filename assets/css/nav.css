@@ -47,7 +47,7 @@ img {
 
 /* demo spacing (optional) */
 .hero{ height:40vh; background: linear-gradient(#fff,#f5f5f5); }
-main section{ min-height:60vh; padding:24px 16px; }
+main section{ min-height:60vh; padding:24px 16px; text-align: center;}
 :root{
   --nav-height: 56px;
   --transition: 200ms ease;
@@ -89,7 +89,7 @@ html { scroll-behavior: smooth; }
 
 /* demo spacing (optional) */
 .hero{ height:40vh; background: linear-gradient(#fff,#f5f5f5); }
-main section{ min-height:60vh; padding:24px 16px; }
+main section{ min-height:60vh; padding:24px 16px; text-align: center;}
 
 /* centered content container */
 .container {
