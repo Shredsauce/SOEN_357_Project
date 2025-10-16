@@ -4,7 +4,8 @@ The final design of an app in UI design is crucial for creating a successful and
 We chose teal, persian green, black and white scolor palette and went for a minimalistic look. The colors give a professional look to the app and the minimalistic design keeps everything straight forward enhancing user expereince, building trust and transparency. 
 
 ## Color Palette
-<img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Color palette.png" />
+<img width="1934" height="536" alt="image" src="https://github.com/user-attachments/assets/253f12ef-d84d-4c76-bfae-284979ff3aa9" />
+
 
 ### Design Inspiration
 <img width="975" height="639" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/Design Inspiration.jpg" />
