@@ -99,9 +99,15 @@ main section{ min-height:60vh; padding:24px 16px;}
 }
 
 /* make injected markdown responsive */
-.container img, .container video, .container svg, .container iframe {
+.container video, .container svg, .container iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.container img {
   max-width: 100%;
   height: auto;
   text-align: center;
 }
+
 
