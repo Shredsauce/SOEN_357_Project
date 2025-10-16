@@ -102,3 +102,9 @@ main section{ min-height:60vh; padding:24px 16px; }
   text-align: left;
 }
 
+.container img,{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
