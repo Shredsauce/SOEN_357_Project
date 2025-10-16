@@ -154,7 +154,7 @@ Unsurprisingly, this led to most respondents indicating that in-depth explanatio
   <i>Figure 10: Target users’ preferred level of detail for AI decisions/explanations</i>
 </p>
 
-# Quotes from participants
+## Quotes from participants
 
 Some quotes that we gathered from participants are as follows:
 
