@@ -9,10 +9,6 @@
 <img width="808" height="565" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/ua-ffc96f94db88687e.png" />
 
 
-<img width="808" height="567" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/ua-e8453d0f795f6b29.png" />
-
-<img width="808" height="565" alt="image" src="https://raw.githubusercontent.com/Shredsauce/SOEN_357_Project/main/assets/images/ua-ffc96f94db88687e.png" />
-
 ## User Journey
 
 ### Job Seeker
