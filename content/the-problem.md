@@ -4,7 +4,7 @@
 
 Nanjiba Jahin Sadique 40258772, Ciara Banks 40195012, Mijan Ullah 40287584, Malcolm Arcand Laliberte 26334792
 
-## Project Introduction
+# Project Introduction
 
 **HireIQ** is an AI-powered employment platform designed to bring transparency, fairness, and trust to the hiring process. Similar to platforms like LinkedIn, HireIQ helps job seekers connect with employers and discover relevant opportunities but with a crucial difference: it emphasizes AI transparency.
 
