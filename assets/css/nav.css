@@ -1,7 +1,7 @@
 :root{
   --nav-height: 56px;
   --transition: 200ms ease;
-  --fg: #fff;https://github.com/Shredsauce/SOEN_357_Project/tree/main/assets/css
+  --fg: #fff;
   --bg: #00A896;
   --fgScrolled: #fff;
   --bgScrolled: #00A896;
@@ -47,10 +47,10 @@ main section{ min-height:60vh; padding:24px 16px; }
 :root{
   --nav-height: 56px;
   --transition: 200ms ease;
-  --fg: #111;
-  --bg: #fff;
+  --fg: #fff;
+  --bg: #00A896;
   --fgScrolled: #fff;
-  --bgScrolled: #000;
+  --bgScrolled: #00A896;
 }
 
 html { scroll-behavior: smooth; }
