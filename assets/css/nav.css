@@ -1,10 +1,10 @@
 :root{
   --nav-height: 56px;
   --transition: 200ms ease;
-  --fg: #111;
-  --bg: #fff;
+  --fg: #fff;https://github.com/Shredsauce/SOEN_357_Project/tree/main/assets/css
+  --bg: #00A896;
   --fgScrolled: #fff;
-  --bgScrolled: #000;
+  --bgScrolled: #00A896;
 }
 
 html { scroll-behavior: smooth; }
@@ -84,7 +84,7 @@ html { scroll-behavior: smooth; }
 }
 
 /* demo spacing (optional) */
-.hero{ height:40vh; background: linear-gradient(#fff,#f5f5f5); }
+.hero{ height:0vh; background: linear-gradient(#fff,#f5f5f5); }
 main section{ min-height:60vh; padding:24px 16px; }
 
 /* centered content container */
