@@ -22,3 +22,56 @@ h3 {
   font-size: 1.4rem;
   font-weight: 300;
 }
+
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.title-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #00A896;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.logo {
+  height: 3rem; /* adjust as needed */
+  width: auto;
+  vertical-align: middle;
+}
+
+.title-right {
+  color: #00A896;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  border-left: 4px solid rgba(0, 168, 150, 0.4);
+  padding-left: 1rem;
+}
+
+@media (max-width: 700px) {
+  .title-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .title-right {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 0.8rem;
+  }
+
+  .title-left {
+    justify-content: center;
+  }
+}
+
